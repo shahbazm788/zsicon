@@ -1,0 +1,159 @@
+<section id="team" class="team section-bg">
+        <div class="container aos-init aos-animate" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Team</h2>
+                <p>Our Technical Team Experts would Provide you best solution for your business, it makes your business process efficient and Perfect.</p>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <div class="member d-flex align-items-start aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="pic"><img src="/Content/Images/w.jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>WASIQ KHAN</h4>
+                            <span>Chief Executive Officer</span>
+                            <p>OUR AIM IS TO PROVIDE BETTER SOLUTION</p>
+                            <div class="social">
+                                <a href="https://www.facebook.com/wasiq.khan.IT/"><i class="ri-twitter-fill"></i></a>
+                                <a href="https://www.facebook.com/wasiq.khan.IT/"><i class="ri-facebook-fill"></i></a>
+                                <a href="https://www.facebook.com/wasiq.khan.IT/"><i class="ri-instagram-fill"></i></a>
+                                <a href="https://www.facebook.com/wasiq.khan.IT/"> <i class="ri-linkedin-box-fill"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <div class="member d-flex align-items-start aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="pic"><img src="/Content/Images/nasir.jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>NASIR ABBAS</h4>
+                            <span>Chief Technical Officer</span>
+                            <p>We Build a easy Solution for your complex Business</p>
+                            <div class="social">
+                                <a href=""><i class="ri-twitter-fill"></i></a>
+                                <a href=""><i class="ri-facebook-fill"></i></a>
+                                <a href=""><i class="ri-instagram-fill"></i></a>
+                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-4">
+
+                    <div class="member d-flex align-items-start aos-init aos-animate" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="pic"><img src="/Content/Images/faheem.png" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>MUHAMMAD FAHEEM</h4>
+                            <span>DEVELOPMENT MANAGER</span>
+                            <p>Empowering Businesses through Technology</p>
+                            <div class="social">
+                                <a href=""><i class="ri-twitter-fill"></i></a>
+                                <a href=""><i class="ri-facebook-fill"></i></a>
+                                <a href=""><i class="ri-instagram-fill"></i></a>
+                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-4">
+                    <div class="member d-flex align-items-start aos-init aos-animate" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="pic"><img src="/Content/Images/fahad.png" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>MUHAMMAD FAHAD</h4>
+                            <span>SR. FRONTEND DEVELOPER</span>
+                            <p>Unlocking Solutions through Cutting-Edge Code</p>
+                            <div class="social">
+                                <a href=""><i class="ri-twitter-fill"></i></a>
+                                <a href=""><i class="ri-facebook-fill"></i></a>
+                                <a href=""><i class="ri-instagram-fill"></i></a>
+                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-4">
+                    <div class="member d-flex align-items-start aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="pic"><img src="/Content/Images/haziq.jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>HAZIQ AHMED</h4>
+                            <span>MANAGER</span>
+                            <p>The joy of Tech Spirit</p>
+                            <div class="social">
+                                <a href=""><i class="ri-twitter-fill"></i></a>
+                                <a href=""><i class="ri-facebook-fill"></i></a>
+                                <a href=""><i class="ri-instagram-fill"></i></a>
+                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mt-4">
+                    <div class="member d-flex align-items-start aos-init aos-animate" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="pic"><img src="/Content/Images/adeel.jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>ADEEL SUBHAN</h4>
+                            <span>UI/UX Designer</span>
+                            <p>Technology made simple</p>
+                            <div class="social">
+                                <a href=""><i class="ri-twitter-fill"></i></a>
+                                <a href=""><i class="ri-facebook-fill"></i></a>
+                                <a href=""><i class="ri-instagram-fill"></i></a>
+                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <Navbar
+        expend="lg"
+        bg="light"
+        sticky="top"
+        styles={{}}
+        data-bs-theme="light"
+      >
+        <Container>
+          <Navbar.Brand href="#home">
+            <img src="./img/logo.png" className="logo_img" alt="logo" />
+          </Navbar.Brand>
+          {/* <div style={{ width: 300 }}></div> */}
+          <Nav className="me-auto ">
+            <LinkContainer to="/">
+              <Nav.Link className="active">Home</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/About">
+              <Nav.Link>About</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/Services">
+              <Nav.Link>Services</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/Team">
+              <Nav.Link>Team</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/ContectForm">
+              <Nav.Link>Contect</Nav.Link>
+            </LinkContainer>
+
+            {/* <Button className="startbtn" variant="outline-info">
+              Get Started
+            </Button> */}
+          </Nav>
+        </Container>
+      </Navbar>
