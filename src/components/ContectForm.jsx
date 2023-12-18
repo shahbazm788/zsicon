@@ -12,7 +12,7 @@ const ContectForm = () => {
             </div>
 
             <Row>
-              <Col lg={12} className=" mt-5 mt-lg-0 d-flex align-items-stretch">
+              <Col lg={12} className=" mt-4 mt-lg-0 d-flex align-items-stretch">
                 <Form className="php-email-form">
                   <Row>
                     <Col md={6}>

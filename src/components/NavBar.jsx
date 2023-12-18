@@ -1,8 +1,15 @@
 import { Navbar, Nav, Form, Container, Button } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import "./nav.css";
+import { useState } from "react";
 
 const NavBars = () => {
+
+  const [hide,setHide] = useState('');
+
+// const setCollapsFunc = () => {
+//   setHide('hide');
+// }
   return (
     <>
       {/* <Navbar expand="lg" >
@@ -25,27 +32,28 @@ const NavBars = () => {
             <img src="./img/logo.png" alt="Logo" className="logo_img" />
           </Navbar.Brand>
           <Navbar.Toggle
-            className="toggle_btn"
+            className={`toggle_btn `}
             aria-controls="basic-navbar-nav"
+            onClick={() => {hide == '' ? setHide('show') : setHide('')}}
           />
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse id="basic-navbar-nav" className={`${hide}`}>
             <Nav className="me-auto">
-              <LinkContainer to="/">
-                <Nav.Link className="active">Home</Nav.Link>
+              <LinkContainer to="/" onClick={() => {setHide('hide')}}>
+                <Nav.Link >Home</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/About">
+              <LinkContainer to="/About" onClick={() => {setHide('hide')}}>
                 <Nav.Link>About</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/Services">
+              <LinkContainer to="/Services" onClick={() => {setHide('hide')}}>
                 <Nav.Link>Services</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/Team">
+              <LinkContainer to="/Team" onClick={() => {setHide('hide')}}>
                 <Nav.Link>Team</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/ContectForm">
-                <Nav.Link>Contect</Nav.Link>
+              <LinkContainer to="/ContectForm" onClick={() => {setHide('hide')}}>
+                <Nav.Link>Contact</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/ContectForm">
+              <LinkContainer to="/ContectForm" onClick={() => {setHide('hide')}}>
                 <Nav.Link className="getstarted">Get Started</Nav.Link>
               </LinkContainer>
             </Nav>

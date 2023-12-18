@@ -17,7 +17,7 @@ const Home = () => {
           <Row>
             <Col
               lg={6}
-              className=" d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1 aos-init aos-animate"
+              className="d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1 aos-init aos-animate"
             >
               {/* <div
               className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1 aos-init aos-animate"
@@ -44,7 +44,7 @@ const Home = () => {
             {/* </div> */}
             <Col
               lg={6}
-              className=" order-1 order-lg-2 hero-img aos-init aos-animate"
+              className="order-1 order-lg-2 hero-img aos-init aos-animate"
             >
               {/* <div
               className="col-lg-6 order-1 order-lg-2 hero-img aos-init aos-animate"

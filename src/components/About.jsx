@@ -42,11 +42,10 @@ const About = () => {
               </ul>
             </div>
           </div>
-
-           <Skills />
+          <Skills />
         </Container>
       </section>
-     
+      
     </>
   );
 };

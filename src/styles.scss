@@ -51,9 +51,7 @@
     padding: 68px 0;
     min-height: 100vh !important;
   }
-  .header_col {
-    /* max-width: 512px; */
-  }
+
   .animated {
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
   }
@@ -218,6 +216,7 @@
     cursor: pointer;
     padding: 15px 5px;
     transition: margin-top 0.5s ease-in-out;
+    margin-bottom: 20px;
   }
   .card:hover {
     margin-top: -10px;
@@ -239,8 +238,8 @@
     margin: 50px 0;
   }
   .cta {
-    /* background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),
-      url("./img/cta-bg.jpg") fixed center center; */
+     background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),
+      url("../public/img/cta-bg.jpg") fixed center center;
     background-size: auto, auto;
     background-size: cover;
     padding: 120px 0;
@@ -256,9 +255,10 @@
     color: #fff;
     font-family: "Open Sans", sans-serif;
   }
-  
-  element {
+  .hide{
+    display: none !important;
   }
+ 
   .cta .cta-btn {
     font-family: "Jost", sans-serif;
     font-weight: 500;
@@ -345,6 +345,11 @@
     width: 32px;
     height: 32px;
     background: #eff2f8;
+    color: #37517e;
+  }
+  .social a:hover{
+    background-color: #47b2e4;
+    color: #fff;
   }
   .section-bg {
     background-color: #f3f5fa;
@@ -528,19 +533,22 @@
     transition: 0.3s;
     display: inline-block;
     line-height: 1;
+    
   }
+
   #footer .footer-top .social-links a {
     font-size: 21px;
     display: inline-block;
     background: #47b2e4;
     color: #fff;
-    line-height: 1;
     padding: 1px 0;
     margin-right: 4px;
     border-radius: 50%;
     text-align: center;
+
     width: 36px;
     height: 36px;
+    line-height: 32px;
     transition: 0.3s;
   }
   #footer .footer-bottom {
@@ -581,6 +589,25 @@
       font-weight: 700;
     
     }
+    .hero_div {
+      
+        // box-sizing: border-box !important;
+        // width: 100% !important;
+        // padding: 0 !important;
+        min-height: 500px !important;
+        max-height: 700px !important;
+        overflow: hidden !important;
+        
+      }
+    
+      .hero_h2 {
+        color: rgba(255, 255, 255, 0.6);
+        margin-bottom: 50px;
+        font-size: 24px;
+        margin-right: 25px;
+        margin-left: 25px;
+      }
+     
     
   }
   @media screen and (max-width: 992px) {
@@ -591,16 +618,127 @@
     .skill {
       font-size: 18px !important;
       font-weight: 700;
-   ;
+   
     }
-    
+    .hero_div {
+      
+      // box-sizing: border-box !important;
+      // width: 100% !important;
+      // padding: 0 !important;
+      min-height: 900px !important;
+      max-height: 1200px !important;
+      overflow: hidden !important;
+      
+    }
+    .img-fluid{
+      width: 90% !important;
+      margin-left: 5% !important;
+    }
+   
+    .card {
+      width: 98%;
+    }
+
+    #contact {
+      padding: 30px 0;
+      overflow: hidden;
+    }
+    .section-title {
+      text-align: center;
+      padding-bottom: 5px;
+    }
+    .section-title h2 {
+      font-size: 30px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 0px;
+      padding-bottom: 10px;
+
+    }
+    #contact > .row {
+      padding-top: 0px !important;
+      margin-top:  0px !important;
+    }
+
+    .social-links{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .navbar-toggler-icon{
+      color: #fff !important;
+    }
+
+    .member {
+      width:80%;
+      margin-left: 10%;
+    }
+    .pic {
+      // width: 100px !important;
+      border-radius: 100% !important;
+      overflow: hidden !important;
+    }
+    .pic > img {
+      width: 100% !important ;
+      border-radius: 100% ;
+      
+    }
+
+
+
+
+
+
   }
   @media screen and (max-width: 768px) {
   
     .skill {
       font-size: 14px !important;
       font-weight: 700;
-   ;
+    }
+
+    .img-fluid{
+      width: 95% !important;
+      margin-left: 2.5% !important;
+    }
+    .card {
+      width: 100%;
     }
     
+  }
+
+  @media screen and (max-width: 666px) {
+ 
+    .hero_div {
+      
+      // box-sizing: border-box !important;
+      // width: 100% !important;
+      // padding: 0 !important;
+      min-height: 700px !important;
+      max-height: 1200px !important;
+      overflow: hidden !important;
+      
+    }
+   
+  }
+
+
+  
+ 
+  @media screen and (max-width: 575px) {
+ 
+    .hero_div {
+      
+      // box-sizing: border-box !important;
+      // width: 100% !important;
+      // padding: 0 !important;
+      min-height: 700px !important;
+      max-height: 1200px !important;
+      overflow: hidden !important;
+      
+    }
+    .member {
+      width:100% !important;
+      margin-left: 0% !important;
+    }
   }

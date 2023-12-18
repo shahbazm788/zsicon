@@ -52,7 +52,32 @@ const Member = () => {
     <>
       {teamMenber.map((menber, i) => {
         return (
-          <Col md={6} className="menber_col">
+          // <Col md={6} className="menber_col">
+          //   <div
+          //     className="member d-flex align-items-start aos-init aos-animate"
+          //     data-aos="zoom-in"
+          //     data-aos-delay="100"
+          //   >
+          //     <div className="pic">
+          //       <img src={`./img/${menber.img}`} className="img-fluid" alt="" />
+          //     </div>
+          //     <div className="member-info">
+          //       <h4>{menber.name}</h4>
+          //       <span>{menber.role}</span>
+          //       <p>{menber.info}</p>
+          //       <div className="social">
+          //         {socile.map((item, i) => {
+          //           return (
+          //             <a href="https://www.facebook.com/wasiq.khan.IT/">
+          //               <Icon icon={item} />
+          //             </a>
+          //           );
+          //         })}
+          //       </div>
+          //     </div>
+          //   </div>
+          // </Col>
+          <Col lg={6} className="menber_col">
             <div
               className="member d-flex align-items-start aos-init aos-animate"
               data-aos="zoom-in"
