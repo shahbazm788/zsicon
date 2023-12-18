@@ -37,7 +37,7 @@ const Member = () => {
     {
       img: "adeel.jpg",
       name: "ADEEL SUBHAN",
-      role: "UI/UX DesignerR",
+      role: "UI/UX Designer",
       info: "Technology made simple"
     }
   ]);
